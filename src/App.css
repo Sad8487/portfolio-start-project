@@ -1,1 +1,6 @@
-
+#root {
+    width: 1440px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
