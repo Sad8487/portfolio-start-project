@@ -90,7 +90,7 @@ export const PortfolioPage = () => {
       <StyledContainerSlayder>
         <IconLeftArrow iconId="strelkaNalevo" />
         <StyledContainerSlayderDiv>
-          <StyledImageSlider src={portfolioSlider}></StyledImageSlider>
+          <StyledImageSlider src={portfolioSlider} alt="Slyder-Photo"></StyledImageSlider>
           <StyledContainerTitle>
             <StyledTitlePortfolioSlayder>
               Landing Ice-cream

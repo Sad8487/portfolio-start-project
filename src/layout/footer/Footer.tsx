@@ -90,7 +90,6 @@ export const Footer = () => {
         </StyledContact>
         <StyledCorp>
             <Logo></Logo>
-            <img />
             <h3>Copyright © 2024, Notitanic</h3>
         </StyledCorp>
       </StyledContainerFooter>

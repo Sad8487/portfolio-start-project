@@ -47,7 +47,7 @@ const StyledTitle = styled.div`
     font-size: 18px;
     font-family: "Arodora Pro", sans-serif;
     font-weight: 100;
-    margin-top: 10px;
+    padding-top: 10px;
   }
 `;
 
@@ -85,7 +85,8 @@ const StyledItem = styled.div`
 
 const StyledNameItem = styled.h3`
   font-size: 24px;
-  margin: 25px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
+  margin: 0px;
   font-family: Arodora Pro, serif;
   font-weight: 300;
   color: #fff;
@@ -117,7 +118,7 @@ export const Main = () => {
         </StyledTitle>
         <div>
           <BackgroundImageHeroPage iconId={"backgroundHomePage"} />
-          <StyledImage src={photo} />
+          <StyledImage src={photo} alt="HomoSapiens" />
         </div>
       </StyledHeroPage>
       <StyledSkills>
