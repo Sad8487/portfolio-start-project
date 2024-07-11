@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { theme } from "../../styles/Theme";
 
 const StyledMenu = styled.nav`
   ul {
@@ -14,6 +15,9 @@ const StyledMenu = styled.nav`
   a {
     color: #fff;
     text-decoration: none;
+  }
+  @media ${theme.media.tablet} {
+    display: none;
   }
 `;
 

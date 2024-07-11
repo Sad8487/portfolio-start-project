@@ -2,6 +2,7 @@ import React from "react";
 import { Logo } from "../../components/logo/Logo";
 import { Menu } from "../../components/menu/Menu";
 import styled from "styled-components";
+import { MobileMenu } from "../../components/menu/MobileMenu";
 
 const StyledHeader = styled.header`
   background-color: #2c2c2c;
@@ -16,6 +17,7 @@ export const Header = () => {
     <StyledHeader>
       <Logo />
       <Menu />
+      <MobileMenu/>
     </StyledHeader>
   );
 };
